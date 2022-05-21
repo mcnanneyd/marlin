@@ -2761,3 +2761,14 @@
 
 // Edit servo angles with M281 and save to EEPROM with M500
 //#define EDITABLE_SERVO_ANGLES
+
+// MAXIMIZE BLOCK BUFFER
+
+#define BLOCK_BUFFER_SIZE 64
+
+#define MAX_CMD_SIZE 96
+
+#define BUFSIZE 32
+
+#define TX_BUFFER_SIZE 32
+
